@@ -1,0 +1,75 @@
+name: Render LaTeX table
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "f2d_leaderboard.tex"
+      - "main.tex"
+      - ".github/workflows/main.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render-table-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Compile LaTeX
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: main.tex
+
+      - name: Install rasterization tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick ghostscript
+
+      - name: Render PDF to PNG
+        run: |
+          mkdir -p rendered
+          convert -density 300 main.pdf \
+            -define pdf:use-cropbox=true \
+            -background white -alpha remove -alpha off \
+            -fuzz 1% -trim +repage \
+            -bordercolor white -border 8x8 \
+            rendered/table.png
+
+      - name: Show outputs
+        run: |
+          pwd
+          ls -lah
+          ls -lah rendered
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: rendered-table
+          path: rendered/table.png
+
+      - name: Commit rendered output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add rendered/table.png
+
+          if git diff --cached --quiet; then
+            echo "No rendered changes to commit"
+            exit 0
+          fi
+
+          git commit -m "chore(render): update rendered table"
+          git push

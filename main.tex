@@ -1,0 +1,28 @@
+\documentclass[class=article,border=0pt]{standalone}
+
+\usepackage{booktabs}     % \toprule, \midrule, \bottomrule, \cmidrule
+\usepackage{multirow}     % \multirow
+\usepackage{graphicx}     % \rotatebox, \scalebox
+\usepackage{bbding}       % checkmark and cross
+\usepackage[backend=bibtex,style=numeric,sorting=none]{biblatex}
+\addbibresource{references.bib}
+
+\newlength{\leaderboardsidetrim}
+\setlength{\leaderboardsidetrim}{2pt}
+
+\makeatletter
+\renewenvironment{table*}[1][]{%
+  \noindent\hspace*{-\leaderboardsidetrim}%
+  \begingroup
+  \centering
+  \renewcommand{\caption}[2][]{}
+}{%
+  \par
+  \endgroup
+  \hspace*{-\leaderboardsidetrim}%
+}
+\makeatother
+
+\begin{document}
+\input{f2d_leaderboard.tex}
+\end{document}

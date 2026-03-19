@@ -1,0 +1,59 @@
+\begin{table*}[]
+\centering
+\scalebox{0.8}{
+\begin{tabular}{@{}l|cccc|c|ccc|ccc@{}}
+\toprule
+\multirow{2}{*}{\textbf{Method}\vspace{-1mm}} 
+& \multirow{2}{*}{\rotatebox{90}{RGB}}
+& \multirow{2}{*}{\rotatebox{90}{LiDAR}}
+& \multirow{2}{*}{\rotatebox{90}{Privileged}}
+& \multirow{2}{*}{\rotatebox{90}{Learned}}
+& \textbf{Bench2Drive} 
+& \multicolumn{6}{c}{\textbf{Fail2Drive}}\\
+\cmidrule(lr){6-12}
+& & & &
+& 
+& \multicolumn{3}{c}{In-Distribution}\vline
+& \multicolumn{3}{c}{Generalization} \\
+\cmidrule(lr){7-12}
+& & & &
+& DS $\uparrow$
+& DS $\uparrow$ & SR(\%) $\uparrow$ & HM $\uparrow$
+& DS $\uparrow$ & SR(\%) $\uparrow$ & HM $\uparrow$\\
+\midrule
+
+% Camera based policies
+TCP~\cite{Wu2022TCP}  & \Checkmark & \XSolidBrush & \XSolidBrush  & \Checkmark
+ & 59.9 & 24.7 & 39.1 & 30.3 & 24.5 \scriptsize{(-0.8\%)} & 31.4 \scriptsize{(-19.7\%)} & 27.5 \scriptsize{(-9.1\%)}\\
+
+UniAD~\cite{Hu2023UniAD}  & \Checkmark & \XSolidBrush & \XSolidBrush & \Checkmark
+ & 45.8 & 47.5 & 36.3 & 41.2 & 44.0 \scriptsize{(-7.4\%)} & 27.6 \scriptsize{(-24.0\%)} & 33.9 \scriptsize{(-17.6\%)}\\
+
+Orion~\cite{Fu2025Orion} & \Checkmark & \XSolidBrush & \XSolidBrush  & \Checkmark
+ & 77.8 & 53.0 & 52.0 & 52.5 & 51.2 \scriptsize{(-3.4\%)} & 46.0 \scriptsize{(-11.5\%)} & 48.5 \scriptsize{(-7.7\%)}\\
+
+HiP-AD~\cite{Tang2025HiPAD} & \Checkmark & \XSolidBrush & \XSolidBrush & \Checkmark
+ & 86.8 & 74.1 & 70.7 & 72.4 & 67.1 \scriptsize{(-9.4\%)} & 56.7 \scriptsize{(-19.8\%)} & 61.5 \scriptsize{(-15.1\%)}\\
+
+SimLingo~\cite{Renz2025SimLingo} & \Checkmark & \XSolidBrush & \XSolidBrush & \Checkmark
+ & 85.1 & 82.6 & 79.3 & 80.9 & 71.7 \scriptsize{(-13.2\%)} & 55.0 \scriptsize{(-30.6\%)} & 62.2 \scriptsize{(-23.1\%)}\\
+\midrule
+
+% LiDAR-fusion policy
+TF++~\cite{Jaeger2023TFPP} & \Checkmark & \Checkmark & \XSolidBrush & \Checkmark
+ & 84.2 & 83.3 & 78.5 & 80.8 & 75.4 \scriptsize{(-9.5\%)} & 61.1 \scriptsize{(-22.2\%)} & 67.5 \scriptsize{(-16.5\%)}\\
+
+\midrule
+\midrule
+% Privileged policy
+PlanT 2.0~\cite{Gerstenecker2025PlanT2} & - & - & \Checkmark & \Checkmark
+ & 92.4 & 87.8 & 85.0 & 86.4 & 73.3 \scriptsize{(-16.5\%)} & 58.0 \scriptsize{(-31.8\%)} & 64.8 \scriptsize{(-25.0\%)}\\
+
+\midrule
+% Fail2Drive Export policy
+PDMLite-F2D & - & - & \Checkmark & \XSolidBrush & 97.0 & 95.6 & 97.0 & 96.3 & 94.0 \scriptsize{(-1.7\%)} & 95.3 \scriptsize{(-1.8\%)} & 94.6 \scriptsize{(-1.7\%)}\\
+
+\bottomrule
+\end{tabular}}
+\caption{\textbf{Results on Fail2Drive.} In-Distribution evaluates on known CARLA scenarios; Generalization measures robustness under distribution shift. We include reported scores on Bench2Drive for comparison. \label{tab:main_results}}
+\end{table*}
