@@ -4,6 +4,7 @@
 \usepackage{multirow}     % \multirow
 \usepackage{graphicx}     % \rotatebox, \scalebox
 \usepackage{bbding}       % checkmark and cross
+\usepackage{xcolor}       % \color
 \usepackage[backend=bibtex,style=numeric,sorting=none]{biblatex}
 \addbibresource{references.bib}
 
@@ -23,6 +24,12 @@
 }
 \makeatother
 
+\newsavebox{\leaderboardbox}
 \begin{document}
-\input{f2d_leaderboard.tex}
+\savebox{\leaderboardbox}{\input{f2d_leaderboard.tex}}%
+\begin{minipage}{\wd\leaderboardbox}
+\usebox{\leaderboardbox}
+
+\hfill\tiny{{\color{gray}\textit{Last updated: \today}}}\hspace*{\dimexpr\leaderboardsidetrim+2mm\relax}
+\end{minipage}
 \end{document}
