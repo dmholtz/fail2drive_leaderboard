@@ -1,0 +1,56 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_5_rep0_Town13_Base_CustomObstacles_0024_05_16_23_27_36",
+                "route_id": "RouteScenario_5_rep0",
+                "status": "Completed",
+                "num_infractions": 10,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.prop.constructioncone and id=5332 at (x=-4286.804, y=-2860.51, z=175.346)",
+                        "Agent collided against object with type=static.prop.constructioncone and id=5332 at (x=-4269.382, y=-2855.998, z=174.839)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.nissan.patrol_2021 and id=5368 at (x=-4277.078, y=-2856.85, z=175.07)",
+                        "Agent collided against object with type=vehicle.lincoln.mkz_2017 and id=5372 at (x=-4150.984, y=-2852.934, z=171.439)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 14.006 meters (2.87% of the completed route)"
+                    ],
+                    "min_speed_infractions": [
+                        "Average speed is 68.55% of the surrounding traffic's one",
+                        "Average speed is 68.36% of the surrounding traffic's one",
+                        "Average speed is 52.65% of the surrounding traffic's one",
+                        "Average speed is 66.7% of the surrounding traffic's one",
+                        "Average speed is 66.7% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.084173,
+                    "score_composed": 8.417313
+                },
+                "meta": {
+                    "route_length": 492.009,
+                    "duration_game": 66.1,
+                    "duration_system": 687.833
+                },
+                "save_name": "RouteScenario_5_rep0_Town13_Base_CustomObstacles_0024_05_16_23_27_36"
+            }
+        ]
+    }
+}

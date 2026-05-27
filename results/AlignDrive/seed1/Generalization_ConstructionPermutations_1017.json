@@ -1,0 +1,53 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_21_rep0_Town13_Generalization_ConstructionPermutations_1017_05_13_03_16_08",
+                "route_id": "RouteScenario_21_rep0",
+                "status": "Completed",
+                "num_infractions": 9,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.prop.constructioncone and id=5929 at (x=3631.16, y=5525.914, z=166.084)",
+                        "Agent collided against object with type=static.prop.constructioncone and id=5930 at (x=3624.121, y=5526.227, z=166.301)",
+                        "Agent collided against object with type=static.prop.constructioncone and id=5932 at (x=3618.782, y=5526.757, z=166.597)",
+                        "Agent collided against object with type=static.prop.constructioncone and id=5934 at (x=3613.444, y=5526.397, z=166.888)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 94.23% of the surrounding traffic's one",
+                        "Average speed is 94.6% of the surrounding traffic's one",
+                        "Average speed is 54.82% of the surrounding traffic's one",
+                        "Average speed is 98.86% of the surrounding traffic's one",
+                        "Average speed is 98.86% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.148165,
+                    "score_composed": 14.816513
+                },
+                "meta": {
+                    "route_length": 316.435,
+                    "duration_game": 47.3,
+                    "duration_system": 495.625
+                },
+                "save_name": "RouteScenario_21_rep0_Town13_Generalization_ConstructionPermutations_1017_05_13_03_16_08"
+            }
+        ]
+    }
+}

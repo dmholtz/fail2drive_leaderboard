@@ -1,0 +1,44 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_26_rep0_Town13_Generalization_ObscuredStop_1048_05_17_03_14_49",
+                "route_id": "RouteScenario_26_rep0",
+                "status": "Failed",
+                "num_infractions": 1,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=traffic.stop and id=739 at (x=-1927.518, y=-333.51, z=160.912)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 62.07,
+                    "score_penalty": 0.65,
+                    "score_composed": 40.3455
+                },
+                "meta": {
+                    "route_length": 133.922,
+                    "duration_game": 99.9,
+                    "duration_system": 1034.082
+                },
+                "save_name": "RouteScenario_26_rep0_Town13_Generalization_ObscuredStop_1048_05_17_03_14_49"
+            }
+        ]
+    }
+}

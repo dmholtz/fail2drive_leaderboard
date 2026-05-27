@@ -1,0 +1,48 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_6_rep0_Town13_Base_CustomObstacles_0026_05_15_11_34_37",
+                "route_id": "RouteScenario_6_rep0",
+                "status": "Completed",
+                "num_infractions": 5,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 77.72% of the surrounding traffic's one",
+                        "Average speed is 77.03% of the surrounding traffic's one",
+                        "Average speed is 86.49% of the surrounding traffic's one",
+                        "Average speed is 76.15% of the surrounding traffic's one",
+                        "Average speed is 76.15% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.718615,
+                    "score_composed": 71.86149
+                },
+                "meta": {
+                    "route_length": 349.354,
+                    "duration_game": 46.9,
+                    "duration_system": 469.037
+                },
+                "save_name": "RouteScenario_6_rep0_Town13_Base_CustomObstacles_0026_05_15_11_34_37"
+            }
+        ]
+    }
+}

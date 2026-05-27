@@ -1,0 +1,46 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_21_rep0_Town13_Generalization_ConstructionPermutations_1018_05_13_04_04_03",
+                "route_id": "RouteScenario_21_rep0",
+                "status": "Completed",
+                "num_infractions": 3,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 90.89% of the surrounding traffic's one",
+                        "Average speed is 90.93% of the surrounding traffic's one",
+                        "Average speed is 72.19% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.867262,
+                    "score_composed": 86.726188
+                },
+                "meta": {
+                    "route_length": 316.656,
+                    "duration_game": 45.0,
+                    "duration_system": 479.558
+                },
+                "save_name": "RouteScenario_21_rep0_Town13_Generalization_ConstructionPermutations_1018_05_13_04_04_03"
+            }
+        ]
+    }
+}

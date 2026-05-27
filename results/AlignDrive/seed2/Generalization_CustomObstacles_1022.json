@@ -1,0 +1,42 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_22_rep0_Town13_Generalization_CustomObstacles_1022_05_15_13_25_05",
+                "route_id": "RouteScenario_22_rep0",
+                "status": "Failed",
+                "num_infractions": 0,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 30.35,
+                    "score_penalty": 1.0,
+                    "score_composed": 30.35
+                },
+                "meta": {
+                    "route_length": 254.175,
+                    "duration_game": 99.9,
+                    "duration_system": 1019.257
+                },
+                "save_name": "RouteScenario_22_rep0_Town13_Generalization_CustomObstacles_1022_05_15_13_25_05"
+            }
+        ]
+    }
+}

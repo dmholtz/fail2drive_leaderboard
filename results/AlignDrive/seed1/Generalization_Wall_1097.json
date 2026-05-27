@@ -1,0 +1,48 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_32_rep0_Town13_Generalization_Wall_1097_05_13_05_12_02",
+                "route_id": "RouteScenario_32_rep0",
+                "status": "Completed",
+                "num_infractions": 4,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.prop.autobahn and id=6035 at (x=-3358.158, y=4926.093, z=171.135)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 95.97% of the surrounding traffic's one",
+                        "Average speed is 97.29% of the surrounding traffic's one",
+                        "Average speed is 97.29% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.631743,
+                    "score_composed": 63.174272
+                },
+                "meta": {
+                    "route_length": 220.249,
+                    "duration_game": 81.3,
+                    "duration_system": 850.92
+                },
+                "save_name": "RouteScenario_32_rep0_Town13_Generalization_Wall_1097_05_13_05_12_02"
+            }
+        ]
+    }
+}

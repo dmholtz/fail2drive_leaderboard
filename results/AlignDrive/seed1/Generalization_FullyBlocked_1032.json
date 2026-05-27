@@ -1,0 +1,47 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_23_rep0_Town13_Generalization_FullyBlocked_1032_05_13_04_07_08",
+                "route_id": "RouteScenario_23_rep0",
+                "status": "Completed",
+                "num_infractions": 3,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.mini.cooper_s_2021 and id=4763 at (x=492.58, y=-829.345, z=152.853)",
+                        "Agent collided against object with type=vehicle.carlamotors.firetruck and id=4742 at (x=598.098, y=-739.391, z=150.712)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 74.95% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.332946,
+                    "score_composed": 33.2946
+                },
+                "meta": {
+                    "route_length": 350.584,
+                    "duration_game": 95.5,
+                    "duration_system": 999.272
+                },
+                "save_name": "RouteScenario_23_rep0_Town13_Generalization_FullyBlocked_1032_05_13_04_07_08"
+            }
+        ]
+    }
+}

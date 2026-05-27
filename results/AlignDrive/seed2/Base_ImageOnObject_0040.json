@@ -1,0 +1,44 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_8_rep0_Town13_Base_ImageOnObject_0040_05_15_11_57_59",
+                "route_id": "RouteScenario_8_rep0",
+                "status": "Failed",
+                "num_infractions": 1,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 9.188 meters (42.72% of the completed route)"
+                    ],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 11.98,
+                    "score_penalty": 0.572772,
+                    "score_composed": 6.861806
+                },
+                "meta": {
+                    "route_length": 179.517,
+                    "duration_game": 99.9,
+                    "duration_system": 1048.201
+                },
+                "save_name": "RouteScenario_8_rep0_Town13_Base_ImageOnObject_0040_05_15_11_57_59"
+            }
+        ]
+    }
+}

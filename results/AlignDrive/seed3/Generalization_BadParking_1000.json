@@ -1,0 +1,42 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_18_rep0_Town13_Generalization_BadParking_1000_05_17_01_41_20",
+                "route_id": "RouteScenario_18_rep0",
+                "status": "Perfect",
+                "num_infractions": 0,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 1.0,
+                    "score_composed": 100.0
+                },
+                "meta": {
+                    "route_length": 234.54,
+                    "duration_game": 30.4,
+                    "duration_system": 326.354
+                },
+                "save_name": "RouteScenario_18_rep0_Town13_Generalization_BadParking_1000_05_17_01_41_20"
+            }
+        ]
+    }
+}

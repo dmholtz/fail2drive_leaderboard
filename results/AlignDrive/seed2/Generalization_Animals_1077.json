@@ -1,0 +1,48 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_17_rep0_Town13_Generalization_Animals_1077_05_15_12_46_46",
+                "route_id": "RouteScenario_17_rep0",
+                "status": "Completed",
+                "num_infractions": 4,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [
+                        "Agent collided against object with type=walker.animal.1008 and id=5416 at (x=-4213.252, y=5612.809, z=174.314)"
+                    ],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 95.3% of the surrounding traffic's one",
+                        "Average speed is 87.18% of the surrounding traffic's one",
+                        "Average speed is 87.18% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.455761,
+                    "score_composed": 45.576144
+                },
+                "meta": {
+                    "route_length": 134.12,
+                    "duration_game": 23.3,
+                    "duration_system": 251.265
+                },
+                "save_name": "RouteScenario_17_rep0_Town13_Generalization_Animals_1077_05_15_12_46_46"
+            }
+        ]
+    }
+}

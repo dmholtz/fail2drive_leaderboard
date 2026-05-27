@@ -1,0 +1,42 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_0_rep0_Town13_Base_Animals_0079_05_16_22_32_22",
+                "route_id": "RouteScenario_0_rep0",
+                "status": "Failed",
+                "num_infractions": 0,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 18.5,
+                    "score_penalty": 1.0,
+                    "score_composed": 18.5
+                },
+                "meta": {
+                    "route_length": 141.186,
+                    "duration_game": 99.9,
+                    "duration_system": 1054.243
+                },
+                "save_name": "RouteScenario_0_rep0_Town13_Base_Animals_0079_05_16_22_32_22"
+            }
+        ]
+    }
+}

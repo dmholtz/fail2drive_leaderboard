@@ -1,0 +1,47 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_17_rep0_Town13_Generalization_Animals_1079_05_15_13_05_45",
+                "route_id": "RouteScenario_17_rep0",
+                "status": "Completed",
+                "num_infractions": 3,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=traffic.traffic_light and id=1284 at (x=2233.256, y=536.203, z=159.066)",
+                        "Agent collided against object with type=traffic.traffic_light and id=1284 at (x=2233.256, y=536.203, z=159.066)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 4.424 meters (3.13% of the completed route)"
+                    ],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.409262,
+                    "score_composed": 40.926246
+                },
+                "meta": {
+                    "route_length": 141.186,
+                    "duration_game": 40.4,
+                    "duration_system": 438.526
+                },
+                "save_name": "RouteScenario_17_rep0_Town13_Generalization_Animals_1079_05_15_13_05_45"
+            }
+        ]
+    }
+}

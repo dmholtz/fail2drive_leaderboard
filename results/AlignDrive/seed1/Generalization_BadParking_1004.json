@@ -1,0 +1,47 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_19_rep0_Town13_Generalization_BadParking_1004_05_13_02_37_48",
+                "route_id": "RouteScenario_19_rep0",
+                "status": "Failed",
+                "num_infractions": 3,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.mercedes.sprinter and id=5498 at (x=952.779, y=-348.232, z=148.62)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 82.35% of the surrounding traffic's one",
+                        "Average speed is 95.24% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 72.64,
+                    "score_penalty": 0.560116,
+                    "score_composed": 40.686803
+                },
+                "meta": {
+                    "route_length": 392.164,
+                    "duration_game": 99.9,
+                    "duration_system": 1058.315
+                },
+                "save_name": "RouteScenario_19_rep0_Town13_Generalization_BadParking_1004_05_13_02_37_48"
+            }
+        ]
+    }
+}

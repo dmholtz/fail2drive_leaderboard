@@ -1,0 +1,48 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_31_rep0_Town13_Generalization_RightOfWay_1055_05_15_15_54_25",
+                "route_id": "RouteScenario_31_rep0",
+                "status": "Completed",
+                "num_infractions": 3,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.kawasaki.ninja and id=6325 at (x=3396.736, y=5531.081, z=169.761)"
+                    ],
+                    "red_light": [
+                        "Agent ran a red light 2119 at (x=3385.119, y=5544.122, z=169.818)"
+                    ],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 1.145 meters (0.64% of the completed route)"
+                    ],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.417293,
+                    "score_composed": 41.729343
+                },
+                "meta": {
+                    "route_length": 177.747,
+                    "duration_game": 31.0,
+                    "duration_system": 324.355
+                },
+                "save_name": "RouteScenario_31_rep0_Town13_Generalization_RightOfWay_1055_05_15_15_54_25"
+            }
+        ]
+    }
+}

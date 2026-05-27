@@ -1,0 +1,47 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_10_rep0_Town13_Base_PassableObstacles_0060_05_17_00_28_57",
+                "route_id": "RouteScenario_10_rep0",
+                "status": "Completed",
+                "num_infractions": 4,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 79.37% of the surrounding traffic's one",
+                        "Average speed is 99.19% of the surrounding traffic's one",
+                        "Average speed is 93.01% of the surrounding traffic's one",
+                        "Average speed is 93.01% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.896993,
+                    "score_composed": 89.699319
+                },
+                "meta": {
+                    "route_length": 132.118,
+                    "duration_game": 33.9,
+                    "duration_system": 359.427
+                },
+                "save_name": "RouteScenario_10_rep0_Town13_Base_PassableObstacles_0060_05_17_00_28_57"
+            }
+        ]
+    }
+}

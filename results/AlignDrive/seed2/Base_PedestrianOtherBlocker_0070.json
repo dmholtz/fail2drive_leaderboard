@@ -1,0 +1,44 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_12_rep0_Town13_Base_PedestrianOtherBlocker_0070_05_15_12_53_13",
+                "route_id": "RouteScenario_12_rep0",
+                "status": "Failed",
+                "num_infractions": 1,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 1.0 meters (1.96% of the completed route)"
+                    ],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 21.99,
+                    "score_penalty": 0.980435,
+                    "score_composed": 21.559771
+                },
+                "meta": {
+                    "route_length": 232.44,
+                    "duration_game": 99.9,
+                    "duration_system": 966.111
+                },
+                "save_name": "RouteScenario_12_rep0_Town13_Base_PedestrianOtherBlocker_0070_05_15_12_53_13"
+            }
+        ]
+    }
+}

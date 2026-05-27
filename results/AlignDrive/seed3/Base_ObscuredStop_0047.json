@@ -1,0 +1,44 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_9_rep0_Town13_Base_ObscuredStop_0047_05_16_23_56_45",
+                "route_id": "RouteScenario_9_rep0",
+                "status": "Completed",
+                "num_infractions": 1,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [
+                        "Agent ran a stop with id=188 at (x=2639.417, y=5325.659, z=161.502)"
+                    ],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.8,
+                    "score_composed": 80.0
+                },
+                "meta": {
+                    "route_length": 215.753,
+                    "duration_game": 29.5,
+                    "duration_system": 314.335
+                },
+                "save_name": "RouteScenario_9_rep0_Town13_Base_ObscuredStop_0047_05_16_23_56_45"
+            }
+        ]
+    }
+}

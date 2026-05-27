@@ -1,0 +1,49 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_21_rep0_Town13_Generalization_CustomObstacles_1020_05_13_03_46_24",
+                "route_id": "RouteScenario_21_rep0",
+                "status": "Completed",
+                "num_infractions": 5,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.prop.gnome and id=5944 at (x=-4094.227, y=4491.436, z=172.488)",
+                        "Agent collided against object with type=static.prop.gnome and id=5945 at (x=-4094.114, y=4486.085, z=172.604)",
+                        "Agent collided against object with type=static.prop.gnome and id=5944 at (x=-4093.975, y=4481.043, z=172.73)",
+                        "Agent collided against object with type=static.prop.gnome and id=5946 at (x=-4093.611, y=4466.426, z=173.175)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 74.87% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.165049,
+                    "score_composed": 16.504866
+                },
+                "meta": {
+                    "route_length": 179.152,
+                    "duration_game": 28.1,
+                    "duration_system": 308.386
+                },
+                "save_name": "RouteScenario_21_rep0_Town13_Generalization_CustomObstacles_1020_05_13_03_46_24"
+            }
+        ]
+    }
+}

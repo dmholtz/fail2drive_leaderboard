@@ -1,0 +1,49 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_21_rep0_Town13_Generalization_CustomObstacles_1020_05_17_01_55_57",
+                "route_id": "RouteScenario_21_rep0",
+                "status": "Failed",
+                "num_infractions": 5,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.prop.gnome and id=5970 at (x=-4094.139, y=4491.2, z=172.492)",
+                        "Agent collided against object with type=static.prop.gnome and id=5972 at (x=-4094.146, y=4486.193, z=172.604)",
+                        "Agent collided against object with type=static.prop.gnome and id=5970 at (x=-4094.179, y=4480.647, z=172.964)",
+                        "Agent collided against object with type=static.road and id=0 at (x=-4094.065, y=4473.649, z=173.745)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 1.0 meters (1.41% of the completed route)"
+                    ],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 39.7,
+                    "score_penalty": 0.175997,
+                    "score_composed": 6.987072
+                },
+                "meta": {
+                    "route_length": 179.152,
+                    "duration_game": 99.9,
+                    "duration_system": 1061.221
+                },
+                "save_name": "RouteScenario_21_rep0_Town13_Generalization_CustomObstacles_1020_05_17_01_55_57"
+            }
+        ]
+    }
+}

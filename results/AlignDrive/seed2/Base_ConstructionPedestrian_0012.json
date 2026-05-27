@@ -1,0 +1,48 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_3_rep0_Town13_Base_ConstructionPedestrian_0012_05_15_11_43_07",
+                "route_id": "RouteScenario_3_rep0",
+                "status": "Completed",
+                "num_infractions": 4,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.prop.constructioncone and id=5123 at (x=2406.525, y=1079.724, z=161.243)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 89.88% of the surrounding traffic's one",
+                        "Average speed is 92.28% of the surrounding traffic's one",
+                        "Average speed is 79.88% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.578507,
+                    "score_composed": 57.850726
+                },
+                "meta": {
+                    "route_length": 218.746,
+                    "duration_game": 31.5,
+                    "duration_system": 332.412
+                },
+                "save_name": "RouteScenario_3_rep0_Town13_Base_ConstructionPedestrian_0012_05_15_11_43_07"
+            }
+        ]
+    }
+}

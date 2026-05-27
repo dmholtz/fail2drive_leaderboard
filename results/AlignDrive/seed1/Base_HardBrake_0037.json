@@ -1,0 +1,48 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_7_rep0_Town13_Base_HardBrake_0037_05_13_01_38_46",
+                "route_id": "RouteScenario_7_rep0",
+                "status": "Completed",
+                "num_infractions": 5,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 88.96% of the surrounding traffic's one",
+                        "Average speed is 93.82% of the surrounding traffic's one",
+                        "Average speed is 81.59% of the surrounding traffic's one",
+                        "Average speed is 91.37% of the surrounding traffic's one",
+                        "Average speed is 91.37% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.850721,
+                    "score_composed": 85.072125
+                },
+                "meta": {
+                    "route_length": 460.582,
+                    "duration_game": 66.1,
+                    "duration_system": 660.774
+                },
+                "save_name": "RouteScenario_7_rep0_Town13_Base_HardBrake_0037_05_13_01_38_46"
+            }
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_32_rep0_Town13_Generalization_RightOfWay_1057_05_17_02_58_43",
+                "route_id": "RouteScenario_32_rep0",
+                "status": "Completed",
+                "num_infractions": 3,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 5.18 meters (3.23% of the completed route)"
+                    ],
+                    "min_speed_infractions": [
+                        "Average speed is 97.95% of the surrounding traffic's one",
+                        "Average speed is 97.95% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.955871,
+                    "score_composed": 95.587078
+                },
+                "meta": {
+                    "route_length": 160.552,
+                    "duration_game": 24.4,
+                    "duration_system": 250.283
+                },
+                "save_name": "RouteScenario_32_rep0_Town13_Generalization_RightOfWay_1057_05_17_02_58_43"
+            }
+        ]
+    }
+}

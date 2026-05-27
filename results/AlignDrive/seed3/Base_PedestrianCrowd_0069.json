@@ -1,0 +1,44 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_12_rep0_Town13_Base_PedestrianCrowd_0069_05_17_00_52_29",
+                "route_id": "RouteScenario_12_rep0",
+                "status": "Failed",
+                "num_infractions": 1,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.dodge.charger_2020 and id=5398 at (x=2894.454, y=5146.67, z=172.114)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 39.01,
+                    "score_penalty": 0.6,
+                    "score_composed": 23.406
+                },
+                "meta": {
+                    "route_length": 195.167,
+                    "duration_game": 99.9,
+                    "duration_system": 1012.217
+                },
+                "save_name": "RouteScenario_12_rep0_Town13_Base_PedestrianCrowd_0069_05_17_00_52_29"
+            }
+        ]
+    }
+}

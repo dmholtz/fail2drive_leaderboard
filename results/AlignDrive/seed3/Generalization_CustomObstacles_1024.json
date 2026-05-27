@@ -1,0 +1,50 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_22_rep0_Town13_Generalization_CustomObstacles_1024_05_17_02_23_33",
+                "route_id": "RouteScenario_22_rep0",
+                "status": "Completed",
+                "num_infractions": 6,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.audi.tt and id=5770 at (x=-4310.703, y=-2856.601, z=176.033)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 71.09% of the surrounding traffic's one",
+                        "Average speed is 67.77% of the surrounding traffic's one",
+                        "Average speed is 63.45% of the surrounding traffic's one",
+                        "Average speed is 76.23% of the surrounding traffic's one",
+                        "Average speed is 76.23% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.380093,
+                    "score_composed": 38.009273
+                },
+                "meta": {
+                    "route_length": 492.009,
+                    "duration_game": 58.8,
+                    "duration_system": 703.793
+                },
+                "save_name": "RouteScenario_22_rep0_Town13_Generalization_CustomObstacles_1024_05_17_02_23_33"
+            }
+        ]
+    }
+}

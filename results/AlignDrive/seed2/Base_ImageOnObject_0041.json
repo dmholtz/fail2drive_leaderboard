@@ -1,0 +1,48 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_8_rep0_Town13_Base_ImageOnObject_0041_05_15_12_17_48",
+                "route_id": "RouteScenario_8_rep0",
+                "status": "Failed",
+                "num_infractions": 3,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.chevrolet.impala and id=5472 at (x=-4102.68, y=-391.385, z=170.005)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 14.173 meters (18.54% of the completed route)"
+                    ],
+                    "min_speed_infractions": [
+                        "Average speed is 96.53% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 40.78,
+                    "score_penalty": 0.483674,
+                    "score_composed": 19.724226
+                },
+                "meta": {
+                    "route_length": 187.464,
+                    "duration_game": 99.9,
+                    "duration_system": 1029.268
+                },
+                "save_name": "RouteScenario_8_rep0_Town13_Base_ImageOnObject_0041_05_15_12_17_48"
+            }
+        ]
+    }
+}

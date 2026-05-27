@@ -1,0 +1,49 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_23_rep0_Town13_Generalization_FullyBlocked_1032_05_15_14_51_39",
+                "route_id": "RouteScenario_23_rep0",
+                "status": "Completed",
+                "num_infractions": 5,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.carlamotors.firetruck and id=6013 at (x=598.042, y=-739.27, z=150.711)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 89.38% of the surrounding traffic's one",
+                        "Average speed is 88.73% of the surrounding traffic's one",
+                        "Average speed is 99.51% of the surrounding traffic's one",
+                        "Average speed is 99.51% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.559595,
+                    "score_composed": 55.959547
+                },
+                "meta": {
+                    "route_length": 350.584,
+                    "duration_game": 92.7,
+                    "duration_system": 959.814
+                },
+                "save_name": "RouteScenario_23_rep0_Town13_Generalization_FullyBlocked_1032_05_15_14_51_39"
+            }
+        ]
+    }
+}

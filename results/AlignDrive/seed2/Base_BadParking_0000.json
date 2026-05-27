@@ -1,0 +1,46 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_1_rep0_Town13_Base_BadParking_0000_05_15_11_18_37",
+                "route_id": "RouteScenario_1_rep0",
+                "status": "Completed",
+                "num_infractions": 2,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.nissan.patrol_2021 and id=5021 at (x=5603.694, y=5405.765, z=158.109)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 76.05% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.55689,
+                    "score_composed": 55.689
+                },
+                "meta": {
+                    "route_length": 234.54,
+                    "duration_game": 36.2,
+                    "duration_system": 373.436
+                },
+                "save_name": "RouteScenario_1_rep0_Town13_Base_BadParking_0000_05_15_11_18_37"
+            }
+        ]
+    }
+}

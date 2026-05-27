@@ -1,0 +1,46 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_8_rep0_Town13_Base_ImageOnObject_0040_05_17_00_16_24",
+                "route_id": "RouteScenario_8_rep0",
+                "status": "Failed",
+                "num_infractions": 2,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.mini.cooper_s_2021 and id=5268 at (x=-2296.23, y=133.804, z=170.507)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 4.083 meters (16.62% of the completed route)"
+                    ],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 13.69,
+                    "score_penalty": 0.500274,
+                    "score_composed": 6.848757
+                },
+                "meta": {
+                    "route_length": 179.517,
+                    "duration_game": 99.9,
+                    "duration_system": 1085.295
+                },
+                "save_name": "RouteScenario_8_rep0_Town13_Base_ImageOnObject_0040_05_17_00_16_24"
+            }
+        ]
+    }
+}

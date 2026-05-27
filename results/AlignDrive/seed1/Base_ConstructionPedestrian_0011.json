@@ -1,0 +1,49 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_3_rep0_Town13_Base_ConstructionPedestrian_0011_05_13_00_46_01",
+                "route_id": "RouteScenario_3_rep0",
+                "status": "Failed",
+                "num_infractions": 4,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.nissan.patrol_2021 and id=5220 at (x=1596.469, y=5821.056, z=147.627)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 11.961 meters (7.05% of the completed route)"
+                    ],
+                    "min_speed_infractions": [
+                        "Average speed is 91.89% of the surrounding traffic's one",
+                        "Average speed is 90.92% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 58.07,
+                    "score_penalty": 0.529335,
+                    "score_composed": 30.738468
+                },
+                "meta": {
+                    "route_length": 292.368,
+                    "duration_game": 99.9,
+                    "duration_system": 1049.292
+                },
+                "save_name": "RouteScenario_3_rep0_Town13_Base_ConstructionPedestrian_0011_05_13_00_46_01"
+            }
+        ]
+    }
+}

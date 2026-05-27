@@ -1,0 +1,50 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_20_rep0_Town13_Generalization_ConstructionPermutations_1015_05_15_14_05_16",
+                "route_id": "RouteScenario_20_rep0",
+                "status": "Completed",
+                "num_infractions": 6,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.prop.dirtdebris02 and id=5669 at (x=-2148.355, y=2245.806, z=154.562)",
+                        "Agent collided against object with type=static.prop.constructioncone and id=5674 at (x=-2146.909, y=2240.637, z=154.575)",
+                        "Agent collided against object with type=static.road and id=0 at (x=-2145.745, y=2233.496, z=155.187)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 43.12% of the surrounding traffic's one",
+                        "Average speed is 93.61% of the surrounding traffic's one",
+                        "Average speed is 93.61% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.219114,
+                    "score_composed": 21.911426
+                },
+                "meta": {
+                    "route_length": 286.119,
+                    "duration_game": 56.2,
+                    "duration_system": 562.672
+                },
+                "save_name": "RouteScenario_20_rep0_Town13_Generalization_ConstructionPermutations_1015_05_15_14_05_16"
+            }
+        ]
+    }
+}

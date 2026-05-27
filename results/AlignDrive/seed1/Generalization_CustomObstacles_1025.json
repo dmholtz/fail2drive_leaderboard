@@ -1,0 +1,52 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_22_rep0_Town13_Generalization_CustomObstacles_1025_05_13_04_18_42",
+                "route_id": "RouteScenario_22_rep0",
+                "status": "Completed",
+                "num_infractions": 7,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.prop.shoppingcart and id=6007 at (x=3197.807, y=5537.83, z=169.041)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.chevrolet.impala and id=6025 at (x=3310.124, y=5533.175, z=169.836)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 76.24% of the surrounding traffic's one",
+                        "Average speed is 94.86% of the surrounding traffic's one",
+                        "Average speed is 88.05% of the surrounding traffic's one",
+                        "Average speed is 99.84% of the surrounding traffic's one",
+                        "Average speed is 99.84% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.343501,
+                    "score_composed": 34.350099
+                },
+                "meta": {
+                    "route_length": 258.393,
+                    "duration_game": 36.9,
+                    "duration_system": 383.413
+                },
+                "save_name": "RouteScenario_22_rep0_Town13_Generalization_CustomObstacles_1025_05_13_04_18_42"
+            }
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_18_rep0_Town13_Generalization_BadParking_1002_05_13_03_12_26",
+                "route_id": "RouteScenario_18_rep0",
+                "status": "Completed",
+                "num_infractions": 5,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.mini.cooper_s_2021 and id=5829 at (x=3398.731, y=1047.626, z=175.312)",
+                        "Agent collided against object with type=vehicle.chevrolet.impala and id=5843 at (x=3540.754, y=1042.716, z=177.388)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 85.7% of the surrounding traffic's one",
+                        "Average speed is 80.15% of the surrounding traffic's one",
+                        "Average speed is 80.15% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.304741,
+                    "score_composed": 30.474125
+                },
+                "meta": {
+                    "route_length": 200.121,
+                    "duration_game": 27.3,
+                    "duration_system": 288.44
+                },
+                "save_name": "RouteScenario_18_rep0_Town13_Generalization_BadParking_1002_05_13_03_12_26"
+            }
+        ]
+    }
+}

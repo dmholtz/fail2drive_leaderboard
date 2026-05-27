@@ -1,0 +1,47 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_18_rep0_Town13_Generalization_BadParking_1001_05_15_14_01_34",
+                "route_id": "RouteScenario_18_rep0",
+                "status": "Failed",
+                "num_infractions": 3,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.ford.crown and id=5770 at (x=3098.467, y=2812.034, z=183.792)",
+                        "Agent collided against object with type=vehicle.ford.crown and id=5770 at (x=3094.075, y=2814.456, z=183.773)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 19.15% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 52.58,
+                    "score_penalty": 0.272682,
+                    "score_composed": 14.33762
+                },
+                "meta": {
+                    "route_length": 173.3,
+                    "duration_game": 99.9,
+                    "duration_system": 994.107
+                },
+                "save_name": "RouteScenario_18_rep0_Town13_Generalization_BadParking_1001_05_15_14_01_34"
+            }
+        ]
+    }
+}

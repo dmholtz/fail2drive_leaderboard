@@ -1,0 +1,47 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_28_rep0_Town13_Generalization_PedestrianCrowd_1065_05_13_05_29_47",
+                "route_id": "RouteScenario_28_rep0",
+                "status": "Completed",
+                "num_infractions": 3,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.mercedes.coupe_2020 and id=6028 at (x=2715.598, y=782.661, z=166.246)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 90.51% of the surrounding traffic's one",
+                        "Average speed is 60.07% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.51309,
+                    "score_composed": 51.309025
+                },
+                "meta": {
+                    "route_length": 145.118,
+                    "duration_game": 37.5,
+                    "duration_system": 352.386
+                },
+                "save_name": "RouteScenario_28_rep0_Town13_Generalization_PedestrianCrowd_1065_05_13_05_29_47"
+            }
+        ]
+    }
+}

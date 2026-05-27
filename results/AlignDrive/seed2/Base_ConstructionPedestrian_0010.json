@@ -1,0 +1,50 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_3_rep0_Town13_Base_ConstructionPedestrian_0010_05_15_11_08_23",
+                "route_id": "RouteScenario_3_rep0",
+                "status": "Completed",
+                "num_infractions": 6,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.lincoln.mkz_2020 and id=5004 at (x=-3979.167, y=5891.161, z=175.212)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 72.43% of the surrounding traffic's one",
+                        "Average speed is 86.0% of the surrounding traffic's one",
+                        "Average speed is 92.35% of the surrounding traffic's one",
+                        "Average speed is 79.6% of the surrounding traffic's one",
+                        "Average speed is 79.6% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.454032,
+                    "score_composed": 45.40319
+                },
+                "meta": {
+                    "route_length": 277.505,
+                    "duration_game": 40.2,
+                    "duration_system": 436.46
+                },
+                "save_name": "RouteScenario_3_rep0_Town13_Base_ConstructionPedestrian_0010_05_15_11_08_23"
+            }
+        ]
+    }
+}

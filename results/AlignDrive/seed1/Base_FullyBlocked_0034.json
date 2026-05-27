@@ -1,0 +1,42 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_7_rep0_Town13_Base_FullyBlocked_0034_05_13_01_49_37",
+                "route_id": "RouteScenario_7_rep0",
+                "status": "Perfect",
+                "num_infractions": 0,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 1.0,
+                    "score_composed": 100.0
+                },
+                "meta": {
+                    "route_length": 227.432,
+                    "duration_game": 30.1,
+                    "duration_system": 315.374
+                },
+                "save_name": "RouteScenario_7_rep0_Town13_Base_FullyBlocked_0034_05_13_01_49_37"
+            }
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_5_rep0_Town13_Base_CustomObstacles_0025_05_15_11_36_23",
+                "route_id": "RouteScenario_5_rep0",
+                "status": "Failed",
+                "num_infractions": 2,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.lincoln.mkz_2020 and id=5051 at (x=3199.096, y=5538.75, z=169.054)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 84.01% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 60.84,
+                    "score_penalty": 0.571218,
+                    "score_composed": 34.752903
+                },
+                "meta": {
+                    "route_length": 258.393,
+                    "duration_game": 99.9,
+                    "duration_system": 1015.116
+                },
+                "save_name": "RouteScenario_5_rep0_Town13_Base_CustomObstacles_0025_05_15_11_36_23"
+            }
+        ]
+    }
+}

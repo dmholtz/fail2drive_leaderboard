@@ -1,0 +1,47 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_9_rep0_Town13_Base_ObscuredStop_0048_05_15_12_48_30",
+                "route_id": "RouteScenario_9_rep0",
+                "status": "Failed",
+                "num_infractions": 3,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=traffic.speed_limit.30 and id=4574 at (x=-1936.655, y=-341.667, z=161.061)",
+                        "Agent collided against object with type=static.fence and id=0 at (x=-1935.752, y=-354.143, z=160.923)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 19.358 meters (17.14% of the completed route)"
+                    ],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 84.32,
+                    "score_penalty": 0.350071,
+                    "score_composed": 29.518016
+                },
+                "meta": {
+                    "route_length": 133.922,
+                    "duration_game": 99.9,
+                    "duration_system": 1059.223
+                },
+                "save_name": "RouteScenario_9_rep0_Town13_Base_ObscuredStop_0048_05_15_12_48_30"
+            }
+        ]
+    }
+}

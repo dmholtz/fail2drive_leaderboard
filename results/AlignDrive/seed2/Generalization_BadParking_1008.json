@@ -1,0 +1,44 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_19_rep0_Town13_Generalization_BadParking_1008_05_15_13_58_32",
+                "route_id": "RouteScenario_19_rep0",
+                "status": "Failed",
+                "num_infractions": 1,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.ford.ambulance and id=5862 at (x=-4026.609, y=5740.663, z=173.994)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 40.87,
+                    "score_penalty": 0.6,
+                    "score_composed": 24.522
+                },
+                "meta": {
+                    "route_length": 147.139,
+                    "duration_game": 99.9,
+                    "duration_system": 1064.269
+                },
+                "save_name": "RouteScenario_19_rep0_Town13_Generalization_BadParking_1008_05_15_13_58_32"
+            }
+        ]
+    }
+}

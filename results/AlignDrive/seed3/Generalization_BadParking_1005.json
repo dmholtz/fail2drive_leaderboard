@@ -1,0 +1,44 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_19_rep0_Town13_Generalization_BadParking_1005_05_17_00_54_58",
+                "route_id": "RouteScenario_19_rep0",
+                "status": "Failed",
+                "num_infractions": 1,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.chevrolet.impala and id=5866 at (x=6310.563, y=5420.705, z=170.58)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 33.37,
+                    "score_penalty": 0.6,
+                    "score_composed": 20.022
+                },
+                "meta": {
+                    "route_length": 222.119,
+                    "duration_game": 99.9,
+                    "duration_system": 1029.255
+                },
+                "save_name": "RouteScenario_19_rep0_Town13_Generalization_BadParking_1005_05_17_00_54_58"
+            }
+        ]
+    }
+}

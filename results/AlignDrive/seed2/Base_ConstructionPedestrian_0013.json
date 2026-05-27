@@ -1,0 +1,49 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_3_rep0_Town13_Base_ConstructionPedestrian_0013_05_15_11_10_30",
+                "route_id": "RouteScenario_3_rep0",
+                "status": "Failed",
+                "num_infractions": 4,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.lincoln.mkz_2017 and id=4953 at (x=7048.984, y=3783.895, z=175.363)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 13.001 meters (9.21% of the completed route)"
+                    ],
+                    "min_speed_infractions": [
+                        "Average speed is 85.58% of the surrounding traffic's one",
+                        "Average speed is 47.82% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 54.46,
+                    "score_penalty": 0.43958,
+                    "score_composed": 23.939548
+                },
+                "meta": {
+                    "route_length": 259.135,
+                    "duration_game": 99.9,
+                    "duration_system": 1015.218
+                },
+                "save_name": "RouteScenario_3_rep0_Town13_Base_ConstructionPedestrian_0013_05_15_11_10_30"
+            }
+        ]
+    }
+}

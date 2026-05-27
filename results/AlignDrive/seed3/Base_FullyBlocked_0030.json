@@ -1,0 +1,46 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_6_rep0_Town13_Base_FullyBlocked_0030_05_16_23_39_38",
+                "route_id": "RouteScenario_6_rep0",
+                "status": "Failed",
+                "num_infractions": 3,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.fence and id=0 at (x=-4613.976, y=3268.605, z=185.059)",
+                        "Agent collided against object with type=static.fence and id=0 at (x=-4613.741, y=3263.383, z=185.074)",
+                        "Agent collided against object with type=static.fence and id=0 at (x=-4613.119, y=3256.462, z=185.07)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 17.28,
+                    "score_penalty": 0.274625,
+                    "score_composed": 4.74552
+                },
+                "meta": {
+                    "route_length": 237.981,
+                    "duration_game": 99.9,
+                    "duration_system": 994.355
+                },
+                "save_name": "RouteScenario_6_rep0_Town13_Base_FullyBlocked_0030_05_16_23_39_38"
+            }
+        ]
+    }
+}

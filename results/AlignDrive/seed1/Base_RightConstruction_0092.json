@@ -1,0 +1,45 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_14_rep0_Town13_Base_RightConstruction_0092_05_13_02_50_56",
+                "route_id": "RouteScenario_14_rep0",
+                "status": "Completed",
+                "num_infractions": 2,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 83.27% of the surrounding traffic's one",
+                        "Average speed is 84.35% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.905216,
+                    "score_composed": 90.521642
+                },
+                "meta": {
+                    "route_length": 157.138,
+                    "duration_game": 19.9,
+                    "duration_system": 206.214
+                },
+                "save_name": "RouteScenario_14_rep0_Town13_Base_RightConstruction_0092_05_13_02_50_56"
+            }
+        ]
+    }
+}

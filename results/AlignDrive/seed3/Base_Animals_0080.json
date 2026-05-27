@@ -1,0 +1,46 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_0_rep0_Town13_Base_Animals_0080_05_16_22_31_33",
+                "route_id": "RouteScenario_0_rep0",
+                "status": "Failed",
+                "num_infractions": 2,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [
+                        "Agent ran a stop with id=53 at (x=-1571.594, y=605.218, z=156.919)"
+                    ],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 74.22% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 56.9,
+                    "score_penalty": 0.738128,
+                    "score_composed": 41.999483
+                },
+                "meta": {
+                    "route_length": 184.488,
+                    "duration_game": 99.9,
+                    "duration_system": 1129.885
+                },
+                "save_name": "RouteScenario_0_rep0_Town13_Base_Animals_0080_05_16_22_31_33"
+            }
+        ]
+    }
+}

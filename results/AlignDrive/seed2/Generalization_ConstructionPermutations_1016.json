@@ -1,0 +1,48 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_21_rep0_Town13_Generalization_ConstructionPermutations_1016_05_15_13_16_26",
+                "route_id": "RouteScenario_21_rep0",
+                "status": "Completed",
+                "num_infractions": 4,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.prop.trafficwarning and id=5622 at (x=2884.034, y=1483.394, z=170.632)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 45.19% of the surrounding traffic's one",
+                        "Average speed is 90.26% of the surrounding traffic's one",
+                        "Average speed is 90.26% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.511844,
+                    "score_composed": 51.184426
+                },
+                "meta": {
+                    "route_length": 204.9,
+                    "duration_game": 45.8,
+                    "duration_system": 478.559
+                },
+                "save_name": "RouteScenario_21_rep0_Town13_Generalization_ConstructionPermutations_1016_05_15_13_16_26"
+            }
+        ]
+    }
+}

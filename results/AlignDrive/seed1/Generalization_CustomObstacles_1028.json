@@ -1,0 +1,49 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_23_rep0_Town13_Generalization_CustomObstacles_1028_05_13_03_51_09",
+                "route_id": "RouteScenario_23_rep0",
+                "status": "Completed",
+                "num_infractions": 5,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.prop.box03 and id=5565 at (x=4382.708, y=1974.822, z=154.865)",
+                        "Agent collided against object with type=static.prop.box03 and id=5566 at (x=4376.886, y=1974.745, z=155.058)",
+                        "Agent collided against object with type=static.prop.trashbag and id=5564 at (x=4370.962, y=1974.969, z=155.241)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 99.79% of the surrounding traffic's one",
+                        "Average speed is 99.79% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.274279,
+                    "score_composed": 27.427908
+                },
+                "meta": {
+                    "route_length": 305.247,
+                    "duration_game": 38.1,
+                    "duration_system": 409.48
+                },
+                "save_name": "RouteScenario_23_rep0_Town13_Generalization_CustomObstacles_1028_05_13_03_51_09"
+            }
+        ]
+    }
+}

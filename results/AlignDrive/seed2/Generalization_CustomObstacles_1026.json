@@ -1,0 +1,50 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_22_rep0_Town13_Generalization_CustomObstacles_1026_05_15_14_43_21",
+                "route_id": "RouteScenario_22_rep0",
+                "status": "Completed",
+                "num_infractions": 6,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.prop.trafficcone01 and id=5979 at (x=-1191.374, y=5810.998, z=145.782)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 76.76% of the surrounding traffic's one",
+                        "Average speed is 52.98% of the surrounding traffic's one",
+                        "Average speed is 69.63% of the surrounding traffic's one",
+                        "Average speed is 72.03% of the surrounding traffic's one",
+                        "Average speed is 72.03% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.396166,
+                    "score_composed": 39.616625
+                },
+                "meta": {
+                    "route_length": 349.354,
+                    "duration_game": 45.4,
+                    "duration_system": 454.068
+                },
+                "save_name": "RouteScenario_22_rep0_Town13_Generalization_CustomObstacles_1026_05_15_14_43_21"
+            }
+        ]
+    }
+}

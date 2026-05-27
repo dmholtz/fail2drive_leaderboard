@@ -1,0 +1,48 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_20_rep0_Town13_Generalization_ConstructionPermutations_1015_05_17_01_54_55",
+                "route_id": "RouteScenario_20_rep0",
+                "status": "Failed",
+                "num_infractions": 3,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.prop.constructioncone and id=4994 at (x=-2150.672, y=2247.199, z=154.513)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.lincoln.mkz_2017 and id=5024 at (x=-2149.035, y=2238.943, z=154.553)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 96.97% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 49.36,
+                    "score_penalty": 0.386455,
+                    "score_composed": 19.075414
+                },
+                "meta": {
+                    "route_length": 286.119,
+                    "duration_game": 99.9,
+                    "duration_system": 993.135
+                },
+                "save_name": "RouteScenario_20_rep0_Town13_Generalization_ConstructionPermutations_1015_05_17_01_54_55"
+            }
+        ]
+    }
+}

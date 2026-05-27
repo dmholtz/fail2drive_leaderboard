@@ -1,0 +1,47 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "RouteScenario_23_rep0_Town13_Generalization_FullyBlocked_1033_05_15_14_25_48",
+                "route_id": "RouteScenario_23_rep0",
+                "status": "Completed",
+                "num_infractions": 4,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 86.92% of the surrounding traffic's one",
+                        "Average speed is 82.9% of the surrounding traffic's one",
+                        "Average speed is 97.12% of the surrounding traffic's one",
+                        "Average speed is 97.12% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.895791,
+                    "score_composed": 89.57908
+                },
+                "meta": {
+                    "route_length": 172.117,
+                    "duration_game": 78.9,
+                    "duration_system": 815.819
+                },
+                "save_name": "RouteScenario_23_rep0_Town13_Generalization_FullyBlocked_1033_05_15_14_25_48"
+            }
+        ]
+    }
+}
